@@ -1,0 +1,30 @@
+telegram webhook setup steps:
+
+
+
+	1. fill in your token and webhook in 'config,ini'
+	
+	2. If testing your BOT in ngrok ,fill in the same port in main.py
+	
+	3, Changing the port in main.py and put ur port in the end
+		
+
+		if __name__ == "__main__":
+
+		    app.run(port= *** YOUR PORT ***,debug=True)
+
+	4. setting your webhook (don't forget to put "/hook" in the end):
+
+		https://api.telegram.org/bot{TOKEN_HERE}/setWebhook?url={ngrok_URL}/hook
+
+		https://api.telegram.org/bot960949087:AAF_bb_FdEXxH1OuJd0PL_KJLzWPEY1UIek/setWebhook?url={ngrok_URL}/hook
+
+	
+	  And you will got these info. on the website.
+	{
+		ok: true,
+		result: true,
+		description: "Webhook was set"
+	}
+
+DONE!
