@@ -44,7 +44,7 @@ dispatcher.add_handler(CallbackQueryHandler(function1.getClickButtonData))
 
 if __name__ == "__main__":
     # Running server
-    app.run(port=80,debug=True)
+    app.run(debug=True)
 
 
 #telegram webhook setup steps:
