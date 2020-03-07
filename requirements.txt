@@ -1,0 +1,7 @@
+configparser
+logging
+telebot
+telegram
+flask
+requests
+re
