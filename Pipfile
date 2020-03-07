@@ -11,7 +11,7 @@ flask = "*"
 gunicorn = "*"
 requests = "*"
 pytelegrambotapi = "*"
-re = "*"
+
 
 [requires]
 python_version = "3.7"
